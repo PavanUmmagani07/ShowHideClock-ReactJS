@@ -16,6 +16,8 @@ class App extends Component {
   }
 
   render() {
+    const {date} = this.state
+    console.log('render Called', date)
     const {showClock} = this.state
     return (
       <div className="app-container">
